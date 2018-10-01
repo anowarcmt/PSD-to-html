@@ -1,0 +1,393 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.fullwarep{
+	width:100%;
+	
+}
+.warep{
+	width:980px;
+	margin:0 auto;
+	display:block;
+	
+}
+p{
+   line-height:150%;
+	margin-bottom:2em;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	
+	font-weight:normal;
+	margin-bottom:10px;
+	margin-top:10px;
+	
+}
+a{
+	text-decoration:none;
+}
+.fix{
+	overflow:hidden;
+}
+.header_bg{
+	background:#292929;
+	
+}
+
+#header.logo_area{
+	
+	float:left;
+	
+	
+}
+#header>.logo_area h1{
+	
+	font-family:Tahoma;
+	font-size:40px;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding:10px;
+	
+	
+	
+}
+
+
+#header nav{
+	float:right;
+}
+
+
+
+#header>nav> .menu{
+	list-style:none;
+	
+}
+#header>nav .menu li{
+	float:left;
+	border-left:1px solid #1D1D1D;
+	
+	
+}
+#header>nav .menu li:last-child{
+	border-right:1px solid #1D1D1D;
+	
+}
+#header>nav .menu li a{
+	color:#FFFFFF;
+	display:block;
+	padding:45px 30px;
+	font-family:Tahoma;
+	font-size:16px;
+	font-weight:bold;
+	border-bottom:5px solid #1D1D1D;
+	
+	
+	
+	
+}
+#header>nav .menu li:hover a{
+	
+	color:#58C93A;
+	border-bottom:5px solid #58C93A;
+}
+#header>nav .menu li.active a{
+	
+	color:#58C93A;
+	border-bottom:5px solid #58C93A;
+}
+.content_bg{
+	border-top:5px solid #1E1E1E;
+	margin-top:-5px;
+	border-bottom:1px solid #D2D2D2;
+	
+}
+#content_wrepar{
+	border-left:1px solid #D2D2D2;border-right:1px solid #D2D2D2;
+	overflow:hidden;
+}	
+.left_content{
+	padding-top:75px;
+}
+.left_content{
+	
+	float:left;
+	
+	width:620px;
+	margin-right:70px;
+}
+.left_content img{
+	width:620px;
+	height:309px;
+	
+}
+.left_content .single_post{
+	overflow:hidden;
+	margin-bottom:70px;
+}
+.left_content .single_post h2{
+	
+	font-family:Tahoma;
+	font-size:28px;
+	font-weight:bold;
+    padding-top:12px;
+    padding-left:12px;
+	text-transform:uppercase;
+	color:#4F4E4E;
+	 
+	
+	
+}.left_content .single_post p{
+	
+	font-family:Tahoma;
+	font-size:16px;
+	
+    padding-top:30px;
+    padding-left:12px;
+
+	color:#4F4E4E;
+	 
+	
+	
+}
+
+.left_content .single_post .continue{
+	
+		
+	font-family:Tahoma;
+	font-size:16px;
+	font-weight:bold;
+	border:1px solid #C2C2C2;
+	border-radius:30px;
+	color:#C2C2C2;
+	padding:10px 15px;
+	display:inline-block;
+	margin-left:10px;
+}
+#salider{
+	padding-top:75px;
+	width:280px;
+	float:right;
+	
+}
+#salider .single_saliser h3,h3{
+	
+	font-family:Tahoma;
+	font-size:16px;
+	font-weight:bold;
+	color:#ACABAB;
+	 background:#F8F8F8;
+	 border-left:5px solid #58C93A;
+	 padding:10px  10px;
+	 border-top:1px solid #4F4E4E; border-bottom:1px solid #4F4E4E; border-right:1px solid #4F4E4E;
+}
+#salider .single_saliser p{
+	
+	font-family:Tahoma;
+	font-size:16px;
+    color:#737373;
+	
+}
+#salider input{
+	
+	padding:10px 70px;
+	margin-bottom:50px;
+	margin-top:20px;
+}
+
+.content_bottom{
+	border-left:1px solid #D2D2D2;
+	border-right:1px solid #D2D2D2;
+    border-top:1px solid #D2D2D2; 
+ overflow:hidden;	
+ 
+}
+
+.content_bottom .previous{
+	
+	margin-left:15px;
+	font-family:Tahoma;
+	font-size:18px;
+	float:left;
+	font-weight:bold;
+	padding:10px;
+	color:#999999;
+	
+}
+.content_bottom .next{
+	
+	margin-right:15px;
+	font-family:Tahoma;
+	font-size:18px;
+	padding:10px;
+	float:right;
+	font-weight:bold;
+	color:#999999;
+}
+#footer h1{
+	
+	font-family:Tahoma;
+	font-size:40px;
+    color:333333;
+	 text-align:center;
+	padding-top:30px;
+	
+}
+#footer p{
+	font-family:Tahoma;
+	font-size:13px;
+	text-align:center;
+	padding-top:30px;
+	color:#999999;
+}
+
+.footer_br{
+	
+	border-left:1px solid #D2D2D2;
+	border-right:1px solid #D2D2D2;
+    border-bottom:1px solid #D2D2D2; 
+	margin-bottom:80px;
+	
+}
+#footer>.solial_area{
+	
+	
+	margin-left:350px;
+
+	
+}
+#footer .solial_area ul{
+	list-style:none;
+	
+	
+	
+}
+#footer .solial_area ul li{
+	display:inline-block;
+	margin:0 10px;
+	
+	
+	
+	
+}
+
+
+#footer .solial_area ul li.facebook a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/fw.png) no-repeat;
+	
+	
+}
+#footer .solial_area ul li.facebook:hover a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/fb.png) no-repeat;
+	
+	
+}
+#footer .solial_area ul li.facebook.active a{
+	
+	width:40px;
+	height:40px;
+	background:url(images/fb.png) no-repeat;
+	
+	
+}
+#footer .solial_area ul li.twitter a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/tw.png) no-repeat;
+	
+	
+}
+#footer .solial_area ul li.twitter:hover a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/tb.png) no-repeat;
+	
+	
+}
+#footer .solial_area ul li.bing a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/bw.png) no-repeat;
+	
+	
+}
+#footer .solial_area ul li.bing:hover a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/bb.png) no-repeat;
+	
+	
+}
+#footer .solial_area ul li.x a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/xw.png) no-repeat;
+	
+	
+}
+#footer .solial_area ul li.x:hover a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/xb.png) no-repeat;
+	
+	
+}
+
+
+#salider .single_saliser .search_box{
+	height:40px;
+	width:250px;
+	border:1px solid #606060;
+	
+	
+}
+.eamil_submit{
+	
+	position:relative;
+}
+.eamil_submit input{
+	
+	height:40px;
+	width:250px;
+	border:1px solid #606060;
+}
+.eamil_submit input[type="submit"]{
+	
+	float:right;
+	background:url(images/ff.png)no-repeat;
+	height:24px;
+	width:24px;
+	position:absolute;
+	text-indent:-99999px;
+	border:none;
+	top:20px;
+	right:-100px;
+	cursor:pointer;
+	
+	
+}
+
+
+
+
+
+
+
+
